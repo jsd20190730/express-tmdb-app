@@ -1,0 +1,7 @@
+<h1>Popular Movies</h1>
+
+{{#each movies}}
+  <div>
+    <a href="/movies/{{this.id}}">{{ this.title }}</a>
+  </div>
+{{/each}}
